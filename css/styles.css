@@ -60,6 +60,7 @@ ul {
   color: var(--btn-hover-color);
 }
 .menu {
+  padding: 0;
   display: flex;
   gap: 40px;
 }
@@ -105,6 +106,7 @@ ul {
 }
 .main-container {
   padding-top: 188px;
+  padding-bottom: 188px;
   text-align: center;
 }
 .main-title {
@@ -142,11 +144,14 @@ ul {
   align-items: center;
   justify-items: center;
   gap: 24px;
+  padding: 0;
 }
 .descr-item {
   width: 264px;
 }
 .skills-container {
+  padding-left: 0px;
+  padding-right: 0px;
   padding-bottom: 120px;
 }
 .skills-title {
@@ -155,6 +160,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .skills {
+  padding: 0;
   display: flex;
   gap: 24px;
   margin-top: 72px;
@@ -164,6 +170,7 @@ ul {
   height: 300px;
 }
 .team-container {
+  padding: 0;
   padding-bottom: 188px;
 }
 .team-title {
@@ -189,10 +196,10 @@ ul {
   flex-wrap: nowrap;
 }
 .team-name {
-  margin-top: 32px;
   text-align: center;
 }
 .team-work {
+  margin: 0;
   margin-top: 8px;
   text-align: center;
 }
@@ -227,7 +234,8 @@ ul {
   padding-right: 0px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap:24px;
+  row-gap: 48px;
 }
 .projects-item {
   width: 360px;
@@ -236,14 +244,14 @@ ul {
 .projects-img {
   width: 360px;
   height: 300px;
+  display: block;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
 .projects-side-text {
   height: 120px;
-  margin-top: -4px;
-  padding: 32px 0px 64px 16px;
+  padding: 32px 16px 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
@@ -252,6 +260,11 @@ ul {
 .footer-container {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+footer .text{
+  margin-bottom: 0px;
+}
+footer .container{
   padding-left: 0px;
   padding-right: 0px;
 }
