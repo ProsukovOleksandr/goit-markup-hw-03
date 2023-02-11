@@ -234,7 +234,7 @@ ul {
   padding-right: 0px;
   display: flex;
   flex-wrap: wrap;
-  column-gap:24px;
+  column-gap: 24px;
   row-gap: 48px;
 }
 .projects-item {
@@ -261,10 +261,10 @@ ul {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-footer .text{
+footer .text {
   margin-bottom: 0px;
 }
-footer .container{
+footer .container {
   padding-left: 0;
   padding-right: 0;
 }
