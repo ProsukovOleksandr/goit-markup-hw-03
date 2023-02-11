@@ -265,8 +265,8 @@ footer .text{
   margin-bottom: 0px;
 }
 footer .container{
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
 }
 .visually-hidden {
   position: absolute;
